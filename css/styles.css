@@ -20,9 +20,6 @@ h5.display-4 + p{
 #products .card-text{
     text-shadow: 1px 1px 2px #000;
 }
-.card {
-    width: calc(50% - 32px);
-}
 .jumbotron{
     background: url('../img/bg.jpg'); background-repeat: no-repeat; background-size: cover;
 }
@@ -45,6 +42,14 @@ h5.display-4 + p{
 @media (max-width:768px){
     .about:hover{
         transform: scale(1,1);
+    }
+    .card{
+        width: 90%;
+    }
+}
+@media (min-width:769px){
+    .card {
+        width: calc(50% - 32px);
     }
 }
 #contact .local{
