@@ -39,6 +39,15 @@ h5.display-4 + p{
 .box{
     width: 19.375em;
 }
+#contact .local{
+    font-size: 2em;
+}
+#contact {
+    background: #f4f4f4;
+}
+#social .icon{
+    width: 3em;
+}
 @media (max-width:768px){
     .about:hover{
         transform: scale(1,1);
@@ -52,12 +61,8 @@ h5.display-4 + p{
         width: calc(50% - 32px);
     }
 }
-#contact .local{
-    font-size: 2em;
-}
-#contact {
-    background: #f4f4f4;
-}
-#social .icon{
-    width: 3em;
+@media (max-width: 400px){
+    .display-4{
+        font-size: 2.5em;
+    }
 }
