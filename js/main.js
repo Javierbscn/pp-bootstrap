@@ -12,7 +12,7 @@ $(document).ready(function () {
 			target = $('html');
         }
         
-        $('html, body').animate({ scrollTop: destino.offset().top }, 1000);
+        $('html, body').animate({ scrollTop: target.offset().top}, 1000);
         
 		return false;
     });
