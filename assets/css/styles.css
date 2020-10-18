@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Sura";
+    src        : url("../fonts/Sura-Regular.ttf");
+    src        : url("../fonts/Sura-Regular.ttf") format("truetype"),
+        url("../fonts/Sura-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style : normal;
+}
+
+* {
+    font-family: 'Sura';
+}
+
+.carousel-caption h5.display-4,
+h5.display-4+p {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.gray {
+    color: #444;
+}
+
+#products .card-title,
+#products .card-text {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.jumbotron {
+    background       : url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+.jumbotron .text-white {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.jumbotron a.btn:hover {
+    background: var(--success);
+    color     : var(--white);
+}
+
+.about {
+    transition: transform .3s;
+}
+
+.about:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.box {
+    width: 19.375em;
+}
+
+#contact {
+    background: #f4f4f4;
+}
+
+#contact .local {
+    font-size: 2em;
+}
+
+#social .icon {
+    width: 3em;
+}
+
+@media (max-width:768px) {
+    .about:hover {
+        transform: scale(1, 1);
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) {
+    .card {
+        width: calc(50% - 32px);
+    }
+}
+
+@media (max-width: 400px) {
+    .display-4 {
+        font-size: 2.5em;
+    }
+}
